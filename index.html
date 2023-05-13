@@ -2,55 +2,97 @@
 
 <html lang="en">
 
-  <head>
-    <meta charset="utf-8">
-    <title>Landing Page</title>
-  </head>
+<head>
+  <meta charset="utf-8">
+  <title>Landing Page</title>
+  <link rel="stylesheet" href="./css/styles.css">
+</head>
 
-  <body>
+<body>
 
-    <!-- START HEADER -->
-    <!-- header top -->
-    <p>Header Logo</p>
-    <a href="">header link one</a>
-    <a href="">header link two</a>
-    <a href="">header link three</a>
 
-    <!-- header left -->
-    <h1>This website is awesome</h1>
-    <p>This website has some subtext that goes here under the main title. It's smaller font and the color is lower contrast.</p>
-    <button>Sign up</button>
+  <div class="header">
 
-    <!-- header right-->
-    <img src="./img/image-header.png" alt="placeholder fon an image" width="520" height="240">
-    <!-- END HEADER -->
 
-    <!-- START CONTENT -->
-    <!-- content top-->
-    <h2>Some random information.</h2>
-    <img src="./img/image-content.png" alt="illustration or image" width="140" height="140">
-    <p>this is dome subtext under an illustration or image</p>
-    <img src="./img/image-content.png" alt="illustration or image" width="140" height="140">
-    <p>this is dome subtext under an illustration or image</p>
-    <img src="./img/image-content.png" alt="illustration or image" width="140" height="140">
-    <p>this is dome subtext under an illustration or image</p>
-    <img src="./img/image-content.png" alt="illustration or image" width="140" height="140">
-    <p>this is dome subtext under an illustration or image</p>
+    <div class="header-top">
 
-    <!-- content mid -->
-    <q>This is an inspiring quote, or a testimonial from a custome. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice.</q>
-    <h3>-Thor, God of Thunder</h3>
+      <div class="link-left">
+        <strong>
+          <a href="#">Header Logo</a>
+        </strong>
+      </div>
+      <div class="link-right">
+        <a href="#">header link one</a>
+        <a href="#">header link two</a>
+        <a href="#">header link three</a>
+      </div>
+    </div>
 
-    <!-- content bot -->
-    <h3>Call to action! It's time!</h3>
-    <p>Sign up for our product by clicking that button right over there!</p>
-    <button>Sign up</button>
-    <!-- END CONTENT -->
 
-    <!-- FOOTER -->
+    <div class="header-content">
+
+      <div class="header-left">
+        <h1>This website is awesome</h1>
+        <p>This website has some subtext that goes here under the main title. It's smaller font and the color is lower
+          contrast.</p>
+        <button><a href="#">Sign up</a></button>
+      </div>
+
+      <div class="header-right">
+        <img src="./img/image-header.png" alt="placeholder fon an image" width="520" height="240">
+      </div>
+
+    </div>
+
+  </div>
+
+  <div class="content">
+
+    <div class="content-top">
+
+      <h2>Some random information.</h2>
+
+      <div class="album">
+        <div class="card">
+          <img src="./img/image-content.png" alt="illustration or image" width="140" height="140">
+          <p>this is some subtext under an illustration or image</p>
+        </div>
+        <div class="card">
+          <img src="./img/image-content.png" alt="illustration or image" width="140" height="140">
+          <p>this is some subtext under an illustration or image</p>
+        </div>
+        <div class="card">
+          <img src="./img/image-content.png" alt="illustration or image" width="140" height="140">
+          <p>this is some subtext under an illustration or image</p>
+        </div>
+        <div class="card">
+          <img src="./img/image-content.png" alt="illustration or image" width="140" height="140">
+          <p>this is some subtext under an illustration or image</p>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="content-mid">
+      <q>This is an inspiring quote, or a testimonial from a custome. Maybe it's just filling up space, or maybe people
+        will
+        actually read it. Who knows? All I know is that it looks nice.</q>
+      <h3>-Thor, God of Thunder</h3>
+    </div>
+
+    <div class="content-bot">
+      <h3>Call to action! It's time!</h3>
+      <p>Sign up for our product by clicking that button right over there!</p>
+      <button>Sign up</button>
+    </div>
+
+  </div>
+
+
+  <div class="footer">
     <p> Copyright © The Odin Project 2021</p>
+  </div>
 
-  </body>
+</body>
 
 </html>
-
